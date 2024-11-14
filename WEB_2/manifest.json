@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Weather Extension",
+  "version": "1.0",
+  "description": "Shows current weather based on your location",
+  "permissions": [
+    "geolocation",
+    "https://api.openweathermap.org/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
